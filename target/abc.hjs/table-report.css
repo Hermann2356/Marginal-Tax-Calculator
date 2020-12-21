@@ -1,0 +1,64 @@
+
+div.bodyReport {
+	width: 7in;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table td, table th {
+	border: 1px solid #ccc;
+	padding: .375rem .625rem;
+	max-width: 12.5rem;
+	font-weight: normal;
+}
+
+td.money{
+	text-align: right;
+}
+
+td.center {
+	text-align: center;
+}
+
+table th {
+	height: .5in;
+}
+
+body {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	background: #fff;
+	font-family: SourceSansPro, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	min-height: 100%;
+	color: #111;
+	font-size: 1.1rem;
+	line-height: 1.5;
+	-padding-top: 3rem;
+}
+
+h1, h2 {
+	color: #111111111;
+	font-family: SourceSansPro, sans-serif;
+	font-size: 26px;
+	text-align: left;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 38px;
+}
+
+sup.mark{
+	font-size: 60%;
+	color: green;
+	font-weight: bold;
+}

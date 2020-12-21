@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="data-entry.css"></link>
+</head>
+<body>
+
+<h2>Client Form</h2>
+<p>Resize the browser window to see the effect. When the screen is less than 600px wide,
+   make the two columns stack on top of each other instead of next to each other.</p>
+
+<div class="container">
+  <form action="/action_page.php">
+  
+   <div class="row">
+    <div class="col-25">
+      <label for="clientId">Client Id</label>
+    </div>
+    <div class="col-75">
+   	 <input readonly="readonly" type="text" id="clientId" name="clientId" 
+   	 placeholder="Client Id..">
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" 
+      placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="salary">Salary</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="salary" name="salary" 
+      placeholder="salary..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Status</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="mfj">Married Filing Jointly</option>
+        <option value="s">Single</option>
+        <option value="hh">Head of House Hold</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <input type="submit" value="delete">
+    <input type="submit" value="update">
+  </div>
+  </form>
+</div>
+
+</body>
+</html>

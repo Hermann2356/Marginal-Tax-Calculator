@@ -1,0 +1,22 @@
+
+div#menu {
+	width: 9in;
+	border: dashed black 1px;
+	margin-bottom: .4in;
+	font-weight: bold;
+	font-size: 75%;
+	font-family: verdana;
+}
+
+div#menu a.menu-item {
+	display: inline-block;
+	width: 1.73in;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	margin-right: 3px;
+	padding-top: 8px;
+	text-align: center;
+	height: .30in;
+	margin-bottom: .1in
+}

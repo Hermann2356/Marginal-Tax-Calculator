@@ -1,0 +1,48 @@
+.table {
+	display: table;
+	border-spacing: 6px;
+}
+
+.tr {
+	display: table-row;
+	padding: 3px;
+}
+
+.td {
+	display: table-cell;
+	border: solid 1px black;
+	height: 2in;
+	width: 2in;
+	margin: 6px;
+	font-family: verdana;
+	font-size: 20pt;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	padding: 6px;
+}
+
+div.query h1 {
+	font-size: 20pt;
+	font-weight: bold;
+	font-family: verdana;
+}
+
+input[type=text], input[type=submit] {
+	width: 1.6in;
+	height: .5in;
+	font-size: 20pt;
+	border: solid 1px black;
+	text-align: right;
+	padding: 0 12px 0 0;
+}
+
+input[type=submit] {
+	text-align: center;
+	margin-left: .325in;
+}
+
+.selected {
+	background-color: pink;
+}

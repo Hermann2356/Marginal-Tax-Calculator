@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Marginal Tax Search</title>
+<link rel="stylesheet" href="queryDesign.css"></link>
+<script src ="jquery-3.5.1.js"></script>
+<script src ="taxQuery.js"></script>
+</head>
+<body>
+	<form action="taxrules">
+
+		<div class="query">
+			<h1>
+				Query For Marginal Tax | Salary: 
+				<span id="formattedSalary"></span>
+				<input type="text" value="0" name="salary" id="salary"/>
+				<input type="submit" value="search" />
+			</h1>
+			<div class="table">
+				<div class="tr">
+					<div data-year="-999" class=" year td">All</div>
+					<div data-year="2020" class=" year td">2020</div>
+					<div data-year="2019" class=" year td">2019</div>
+					<div data-year="2018" class=" year td">2018</div>
+					<div data-year="2017" class=" year td">2017</div>
+				</div>
+				<div class="tr">
+					<div data-status="S"    class="status td">Single</div>
+					<div data-status="MFS"  class="status td">Married Filing Single</div>
+					<div data-status="MFJ"  class="status td">Married Filing Jointly</div>
+					<div data-status="HH"   class="status td">Head of House Hold</div>
+				</div>				
+			</div>
+		</div>	
+		<input type="hidden" value="2020" name="year" id="year"/>
+		<input type="hidden" value="S" name="status" id="status"/>
+	</form>
+</body>
+</html>
